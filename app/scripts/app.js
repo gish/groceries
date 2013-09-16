@@ -26,16 +26,8 @@ define([
             });
         },
         _sortGroceries: function (groceryList) {
-            groceryList = _.sortBy(groceryList, function(item) {
-                var pos = _.indexOf(groceries, item);
-
-                if (pos === -1) {
-                    pos = groceries.length;
-                }
-
-                return pos;
-            });
-            gui.renderList(groceryList);
+            var sortedGroceries = groceries.sort(groceryList);
+            gui.renderList(sortedGroceries);
         }
     };
 });
