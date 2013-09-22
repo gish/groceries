@@ -12,7 +12,8 @@ require.config({
         bootstrapTab: '../bower_components/sass-bootstrap/js/tab',
         bootstrapTooltip: '../bower_components/sass-bootstrap/js/tooltip',
         bootstrapTransition: '../bower_components/sass-bootstrap/js/transition',
-        underscore: '../bower_components/underscore/underscore'
+        underscore: '../bower_components/underscore/underscore',
+        fuse: 'libs/fuse.min'
     },
     shim: {
         bootstrapAffix: {
@@ -50,6 +51,9 @@ require.config({
         },
         underscore: {
             exports: '_'
+        },
+        fuse: {
+            exports: 'Fuse'
         }
     }
 });
