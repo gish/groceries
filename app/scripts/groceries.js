@@ -6,10 +6,10 @@ define(['underscore', 'config/groceryorder', 'fuse'], function(_, groceryOrder, 
         sort : function(list) {
             return _.sortBy(list, function(item) {
                 var fuzzySearch = new Fuse(groceryOrder),
-                    hits = fuzzySearch.search(item),
-                    pos = hits[0];
+                    matches = fuzzySearch.search(item),
+                    pos = matches[0];
 
-                if (hits.length === 0) {
+                if (pos === undefined) {
                     pos = groceryOrder.length;
                 }
 
