@@ -32,6 +32,8 @@ define(function() {
         'parmesanost',
         'västerbottenost',
 
+        'krossade tomater',
+
         // Frozen products
         'kyckling',
         'bladspenat',
