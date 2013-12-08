@@ -8,21 +8,23 @@ define(function() {
         'tomater',
         'gurka',
         'morötter',
-        'äpplen',
-        'bananer',
+        'squash',
+        'selleri',
+        'palsternacka',
+        'citron',
         'broccoli',
         'paprika',
         'rödbetor',
+        'äpple',
         'gul lök',
         'vitlök',
+        'potatis',
         'vitkål',
         'spetskål',
         'grönsallad',
         'ingefära',
-        'färsk timjan',
-        'selleri',
-        'squash',
-        'potatis',
+        'bananer',
+        'savoykål',
         'färsk timjan',
 
 
@@ -34,7 +36,11 @@ define(function() {
 
         'krossade tomater',
 
+        // Bread
+        'bröd',
+
         // Frozen products
+        'lax',
         'kyckling',
         'bladspenat',
         'frysta bär',
@@ -45,6 +51,7 @@ define(function() {
         'mjölk',
         'matlagningsgrädde',
         'mellangrädde',
+        'creme fraiche',
         'ägg',
         'smör',
         'becel',
@@ -61,6 +68,8 @@ define(function() {
         'potatismjöl',
         'mandelmjöl',
         'flytande honung',
+        'valnötter',
+        'aprikoser',
 
         // Cleaning
         'wc-anka',
