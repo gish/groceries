@@ -26,6 +26,7 @@ define(function() {
         'bananer',
         'savoykål',
         'färsk timjan',
+        'kruka basilika',
 
 
         // Cold cuts
@@ -33,6 +34,9 @@ define(function() {
         'ost',
         'parmesanost',
         'västerbottenost',
+
+        // Spices
+        'pomeransskal',
 
         'krossade tomater',
 
@@ -43,6 +47,7 @@ define(function() {
         'lax',
         'kyckling',
         'bladspenat',
+        'lingon',
         'frysta bär',
 
         // Dairy
@@ -70,6 +75,8 @@ define(function() {
         'flytande honung',
         'valnötter',
         'aprikoser',
+
+        'pasta',
 
         // Cleaning
         'wc-anka',
