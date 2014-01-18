@@ -4,9 +4,14 @@ define(function() {
     return [
         // Vegetables
         'frukt',
+        'apelsin',
+        'granatäpple',
+        'mango',
         'körsbärstomater',
         'tomater',
         'gurka',
+        'kiwi',
+        'lime',
         'morötter',
         'squash',
         'selleri',
@@ -18,6 +23,7 @@ define(function() {
         'äpple',
         'gul lök',
         'vitlök',
+        'chalottenlök',
         'potatis',
         'vitkål',
         'spetskål',
@@ -31,12 +37,21 @@ define(function() {
 
         // Cold cuts
         'skinka',
+        'leverpastej',
+        'salami',
         'ost',
         'parmesanost',
         'västerbottenost',
 
         // Spices
         'pomeransskal',
+        'svartpeppar',
+
+        // Meat
+        'köttfärs',
+
+        // Oil and wine
+        'matlagningsvin',
 
         'krossade tomater',
 
@@ -46,6 +61,7 @@ define(function() {
         // Frozen products
         'lax',
         'kyckling',
+        'fiskblock',
         'bladspenat',
         'lingon',
         'frysta bär',
@@ -64,10 +80,18 @@ define(function() {
         'kesella',
         'jäst',
 
+        'apelsinjuice',
+
+        // Flakes
+        'corn flakes',
+
         // Gluten free
         'bake off-bröd',
+        'havregryn å',
 
         // Bakery
+        'jordnötter',
+        'vetemjöl',
         'rismjöl',
         'sojamjöl',
         'potatismjöl',
@@ -77,6 +101,9 @@ define(function() {
         'aprikoser',
 
         'pasta',
+
+        'kokosmjölk',
+        'kikärtor',
 
         // Cleaning
         'wc-anka',
